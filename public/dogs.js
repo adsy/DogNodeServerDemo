@@ -12,7 +12,7 @@ function addNewDoggo() {
       return processingPromise;
     })
     .then(function(processedResponse) {
-      const img = document.querySelector(".img");
+      const img = document.querySelector(".dog-img");
       const info = document.querySelector(".dog");
       img.src = processedResponse.message;
       img.alt = "Cute doggo";
