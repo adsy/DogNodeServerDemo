@@ -25,36 +25,36 @@
 </head>
 
 <body>
-  
-  <h5 class="weather badge-warning badge">Brisbane Temperature: <span id="weather" class="badge badge-warning"></span>
-  </h5>
+  <!-- Weather temp API display -->
+  <div class="weather-holder pt-1 pl-1">
+    <h5 class="weather-text badge-primary badge">Brisbane Temperature:
+      <span id="weather" class="badge badge-danger"></span>
+    </h5>
+  </div>
+
+  <!-- Jumbotron for page contents -->
   <div class="jumbotron pt-0 mt-0">
 
+    <!-- Page Title -->
     <div class="title pb-1">
       <h1 class="title">DOGS!</h1>
     </div>
 
+    <!-- Card holder for image + loader -->
     <div class="holder">
       <div class="card">
         <img class="dog-img" src="" alt="">
         <div class="card-body">
           <p class="dog">NO IMAGE LOADED</p>
           <hr class="my-4">
-          
           <a class="btn btn-primary btn-lg request-dog" href="#" role="button">Load New Dog Image</a>
-
         </div>
       </div>
     </div>
 
-
-
-
-
-
-
-
+    <!-- JS file for Dog API -->
     <script src="./public/dogs.js"></script>
+    <!-- JS file for Weather API -->
     <script src="./public/weather.js"></script>
 
   </div>

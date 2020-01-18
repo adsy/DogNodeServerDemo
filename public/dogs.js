@@ -1,7 +1,4 @@
-
-
 const DOG_URL = "https://dog.ceo/api/breeds/image/random";
-
 const doggos = document.querySelector(".doggos");
 
 function addNewDoggo() {

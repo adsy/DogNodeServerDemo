@@ -14,8 +14,12 @@ body {
     background-color: #e9ecef !important;
 }
 
-.weather {
+.weather-holder {
     text-align: left;
+}
+
+.weather-text {
+    font-size: 16px !important;
 }
 
 .dog-img {
@@ -38,4 +42,9 @@ body {
     font-weight: 700;
     font-size: 20px;
     color: rgba(80, 0, 0, 0.849);
+}
+
+.card-body {
+    border: lime;
+    background-color: #d4d4d44d;
 }
