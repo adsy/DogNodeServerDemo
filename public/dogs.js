@@ -9,6 +9,7 @@ function addNewDoggo() {
   promise
     .then(function(response) {
       const processingPromise = response.json();
+      
       return processingPromise;
     })
     .then(function(processedResponse) {

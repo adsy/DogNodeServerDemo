@@ -6,9 +6,17 @@
 html {
     margin: 0;
     height: 100%;
+    width:100%;
     background-color: #e9ecef;
 }
 
+body {
+    background-color: #e9ecef !important;
+}
+
+#weather {
+    text-align: left;
+}
 
 .dog-img {
    height:400px; 
