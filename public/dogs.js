@@ -9,7 +9,6 @@ function addNewDoggo() {
   promise
     .then(function(response) {
       const processingPromise = response.json();
-      
       return processingPromise;
     })
     .then(function(processedResponse) {
@@ -17,9 +16,8 @@ function addNewDoggo() {
       const info = document.querySelector(".dog");
       img.src = processedResponse.message;
       img.alt = "Cute doggo";
+      img.style.display = "block";
       info.innerText = "";
-      
-      console.log("test");
     });
 }
 

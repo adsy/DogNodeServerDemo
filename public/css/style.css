@@ -14,14 +14,28 @@ body {
     background-color: #e9ecef !important;
 }
 
-#weather {
+.weather {
     text-align: left;
 }
 
 .dog-img {
    height:400px; 
+   display:none;
 }
 
 .title {
     font-size:64px;
+    font-weight: 700;
+
+}
+
+.holder {
+    display: flex;
+    justify-content: center;
+}
+
+.dog {
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(80, 0, 0, 0.849);
 }

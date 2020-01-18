@@ -1,7 +1,5 @@
 const WEATHER_API = "http://api.openweathermap.org/data/2.5/weather?lat=-27&lon=153&units=metric&APPID=5238b2be2476743ef363b263ae4d2db6";
 
-
-
 const promise = fetch(WEATHER_API);
 promise.then(function (response) {
     const processingPromise = response.json();

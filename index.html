@@ -25,27 +25,34 @@
 </head>
 
 <body>
-  <h5 id="weather">Brisbane Temperature: </h5>
-  <div class="jumbotron">
+  
+  <h5 class="weather badge-warning badge">Brisbane Temperature: <span id="weather" class="badge badge-warning"></span>
+  </h5>
+  <div class="jumbotron pt-0 mt-0">
 
-    <div class="title">
-      <h1 class="display-4">DOGS!</h1>
+    <div class="title pb-1">
+      <h1 class="title">DOGS!</h1>
     </div>
-    <div class="title">
-      
+
+    <div class="holder">
+      <div class="card">
+        <img class="dog-img" src="" alt="">
+        <div class="card-body">
+          <p class="dog">NO IMAGE LOADED</p>
+          <hr class="my-4">
+          
+          <a class="btn btn-primary btn-lg request-dog" href="#" role="button">Load New Dog Image</a>
+
+        </div>
+      </div>
     </div>
 
-    <p class="dog lead">None loaded yet.</p>
-    
-    <img class="dog-img" src="" alt="">
 
-    <hr class="my-4">
 
-    <a class="btn btn-primary btn-lg request-dog" href="#" role="button">Load New Dog Image</a>
 
-    <div id="loading"></div>
-      <div id="isItLoaded"></div>
-    </div>
+
+
+
 
     <script src="./public/dogs.js"></script>
     <script src="./public/weather.js"></script>
