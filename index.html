@@ -25,53 +25,85 @@
 </head>
 
 <body>
-  <!-- Weather temp API display -->
-  <div class="weather-holder pt-1 pl-1">
-    <h5 class="weather-text badge-primary badge">Brisbane Temperature:
-      <span id="weather" class="badge badge-danger"></span>
-    </h5>
-  </div>
 
-  <!-- Tezos coin price API display -->
-  <div class="coin-holder pt-1 pl-1">
-    <h5 class="coin-text badge-primary badge">XTZ Price:
-      <span id="xtz" class="badge badge-danger"></span>
-    </h5>
-  </div>
+  <div class="holder">
+    <div class="half">
+      <!-- Jumbotron for page contents -->
+      <div class=" pt-0 mt-0">
 
-  <!-- Brave attention token coin price API display -->
-  <div class="coin-holder pt-1 pl-1">
-    <h5 class="coin-text badge-primary badge">BAT Price:
-      <span id="bat" class="badge badge-danger"></span>
-    </h5>
-  </div>
 
-  <!-- Chainlink coin price API display -->
-  <div class="coin-holder pt-1 pl-1">
-    <h5 class="coin-text badge-primary badge">LINK Price:
-      <span id="link" class="badge badge-danger"></span>
-    </h5>
-  </div>
 
-  <!-- Jumbotron for page contents -->
-  <div class="jumbotron pt-0 mt-0">
+        <!-- Card holder for image + loader -->
+        <div>
+          <div class="card card-body">
 
-    <!-- Page Title -->
-    <div class="title pb-1">
-      <h1 class="title">DOGS!</h1>
-    </div>
+            <!-- Card Title -->
+            <div class="title pb-1">
+              <h1 class="title text-white">INFO!</h1>
+            </div>
 
-    <!-- Card holder for image + loader -->
-    <div class="holder">
-      <div class="card">
-        <img class="dog-img" src="" alt="">
-        <div class="card-body">
-          <p class="dog">NO IMAGE LOADED</p>
-          <hr class="my-4">
-          <a class="btn btn-primary btn-lg request-dog" href="#" role="button">Load New Dog Image</a>
+            <div class="card-body">
+              <!-- Weather temp API display -->
+              <div class="weather-holder pt-1 pl-1">
+                <h5 class="weather-text badge-warning badge">Brisbane Temperature:
+                  <span id="weather" class="badge badge-danger"></span>
+                </h5>
+              </div>
+
+              <!-- Tezos coin price API display -->
+              <div class="coin-holder pt-1 pl-1">
+                <h5 class="coin-text badge-warning badge">XTZ Price:
+                  <span id="xtz" class="badge badge-danger"></span>
+                </h5>
+              </div>
+
+              <!-- Brave attention token coin price API display -->
+              <div class="coin-holder pt-1 pl-1">
+                <h5 class="coin-text badge-warning badge">BAT Price:
+                  <span id="bat" class="badge badge-danger"></span>
+                </h5>
+              </div>
+
+              <!-- Chainlink coin price API display -->
+              <div class="coin-holder pt-1 pl-1">
+                <h5 class="coin-text badge-warning badge">LINK Price:
+                  <span id="link" class="badge badge-danger"></span>
+                </h5>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+
     </div>
+
+    <div class="half">
+      <!-- Jumbotron for page contents -->
+      <div class="bg-c pl-5 pt-0 mt-0">
+
+
+
+        <!-- Card holder for image + loader -->
+        <div class="">
+          <div class="card card-body">
+            <!-- Card Title -->
+            <div class="title pb-1">
+              <h1 class="title text-white">DOGS!</h1>
+            </div>
+            <img class="dog-img" src="" alt="">
+            <div class="card-body">
+              <p class="dog text-white">NO IMAGE LOADED</p>
+              <hr class="my-4">
+              <a class="btn btn-warning btn-lg request-dog" href="#" role="button">Load New Dog Image</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
 
     <!-- JS file for Dog API -->
     <script src="./public/dogs.js"></script>
