@@ -7,27 +7,28 @@ html {
     margin: 0;
     height: 100%;
     width:100%;
-    background-color: #e9ecef;
+    background-color: #022F40;
 }
 
 body {
-    background-color: #e9ecef !important;
-}
-
-.weather-holder {
-    text-align: left;
-}
-
-.coin-holder {
-    text-align: left;
+    background-color: #022F40 !important;
 }
 
 .weather-text {
     font-size: 16px !important;
+    width:300px;
 }
 
 .coin-text {
     font-size: 16px !important;
+    width:300px;
+}
+
+.half {
+    width: 47.5%;
+    display: flex;
+    flex-direction: column;
+    padding-top:20px;
 }
 
 .dog-img {
@@ -54,5 +55,14 @@ body {
 
 .card-body {
     border: lime;
-    background-color: #d4d4d44d;
+    background-color: #183446;
+   
+}
+
+.jumbotron {
+    background-color: #38AECC !important;
+}
+
+.card {
+    background-color: #0090C1 !important;
 }
