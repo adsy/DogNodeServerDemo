@@ -7,11 +7,11 @@ html {
     margin: 0;
     height: 100%;
     width:100%;
-    background-color: #022F40;
+    background-color: #2D3142;
 }
 
 body {
-    background-color: #022F40 !important;
+    background-color: #2D3142 !important;
 }
 
 .weather-text {
@@ -55,14 +55,14 @@ body {
 
 .card-body {
     border: lime;
-    background-color: #183446;
+    background-color: #EF8354;
    
 }
 
 .jumbotron {
-    background-color: #38AECC !important;
+    background-color: #FFFFFF !important;
 }
 
 .card {
-    background-color: #0090C1 !important;
+    background-color: #BFC0C0 !important;
 }
