@@ -25,10 +25,8 @@ body {
 }
 
 .half {
-    width: 47.5%;
-    display: flex;
-    flex-direction: column;
-    padding-top:20px;
+    padding-top:30px;
+    width:40%;
 }
 
 .dog-img {
@@ -44,7 +42,10 @@ body {
 
 .holder {
     display: flex;
-    justify-content: center;
+    width:100%;
+    height:100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .dog {
@@ -54,7 +55,6 @@ body {
 }
 
 .card-body {
-    border: lime;
     background-color: #EF8354;
    
 }
@@ -65,4 +65,23 @@ body {
 
 .card {
     background-color: #BFC0C0 !important;
+    
+}
+
+@media (max-width: 950px) {
+
+    .holder {
+        width:100%;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .card {
+        width:400px;
+    }
+
+    .half {
+        padding-right:400px;
+        justify-self: center;
+    }
 }
